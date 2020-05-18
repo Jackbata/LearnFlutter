@@ -51,7 +51,7 @@ class BodyState extends State<Body> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         RaisedButton(
-          color: Colors.red,
+            color: Colors.red,
             child: Text(
               "+",
               style: TextStyle(fontSize: 20, color: Colors.black),
