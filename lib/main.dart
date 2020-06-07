@@ -1,6 +1,6 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 
 main() => runApp(MyApp());
 
@@ -64,7 +64,6 @@ class _NotificationStateState extends State<NotificationState> {
   @override
   void initState() {
     super.initState();
-
     _controller.addListener(() {
       setState(() {
         isShowflatbutton = _controller.offset >= 100;
