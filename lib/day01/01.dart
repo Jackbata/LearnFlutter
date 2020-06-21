@@ -16,7 +16,7 @@ main() {
             child: Text(
               "Hello world",
               style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 32,
                   color: Colors.amber
               ),
             ),
