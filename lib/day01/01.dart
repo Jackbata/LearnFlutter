@@ -8,7 +8,7 @@ main() {
           appBar: AppBar(
             title: Text("第一个flutter程序",
               style: TextStyle(
-                  fontSize: 33
+                  fontSize: 30
               ),
             ),
           ),
