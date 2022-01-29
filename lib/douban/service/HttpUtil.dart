@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutterapp1/service/Config.dart';
+import 'package:flutterapp1/douban/service/Config.dart';
 
 class HttpRequest {
   static final BaseOptions baseOptions = BaseOptions(baseUrl: HttpConfig.baseURL, connectTimeout: HttpConfig.timeout);

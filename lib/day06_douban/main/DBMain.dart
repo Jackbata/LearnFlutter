@@ -10,7 +10,6 @@ class DBMain extends StatefulWidget {
 
 class _DBMainState extends State<DBMain> {
   int _currIndex = 0;
-
   Widget build(BuildContext context) {
     return Scaffold(
      body:IndexedStack(

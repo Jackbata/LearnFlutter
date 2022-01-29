@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutterapp1/service/Config.dart';
+import 'package:flutterapp1/day06_douban/service/Config.dart';
 
 class HttpRequest {
   static final BaseOptions baseOptions = BaseOptions(baseUrl: HttpConfig.baseURL, connectTimeout: HttpConfig.timeout);
@@ -17,7 +17,7 @@ class HttpRequest {
     // 创建默认的全局拦截器
     Interceptor dInter = InterceptorsWrapper(
         onRequest: (options) {
-          print("请求拦截");
+          print("请求拦截 url = $url");
           return options;
         },
         onResponse: (response) {

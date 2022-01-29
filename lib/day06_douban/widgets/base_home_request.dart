@@ -1,8 +1,8 @@
-import 'package:flutterapp1/douban/model/home_model.dart';
-import 'package:flutterapp1/douban/service/Config.dart';
-import 'package:flutterapp1/douban/service/HttpUtil.dart';
+import 'package:flutterapp1/day06_douban/model/home_model.dart';
+import 'package:flutterapp1/day06_douban/service/Config.dart';
+import 'package:flutterapp1/day06_douban/service/HttpUtil.dart';
 
-class HomeRequest {
+class DBHomeRequest {
   static Future<List<MovieItem>> requestMoveList(int start) async {
     final movieURL =
         "/movie/top250?start=$start&count=${HomeConfig.movieCount}";
@@ -17,6 +17,7 @@ class HomeRequest {
     }
 
     return movies;
-
   }
 }
+
+
